@@ -1,0 +1,38 @@
+cd OneDrive
+cd Escritorio
+cd examen
+dir
+git init
+git add Readme.MD
+git status
+git commit -m "AÑADIDO README"
+mkdir BD_Python
+git add BD_Python && git commit -m "AÑADIDO PROYECTO"
+mkdir unidad5
+git add unidad5 && git commit -m "AÑADIDO CARPETA unidad5"
+git add jesusarmando_sosaloya.21550146 && git commit -m "AÑADIDO Armando Sosa"
+git add jesuselias_sierraruiz.21550135 && git commit -m "AÑADIDO Elias Sierra"
+git add aprobados.py && git commit -m "AÑADIDO aprobados"
+git branch reprobados
+git branch
+git checkout reprobados
+mkdir MUNDIAL
+git add MUNDIAL && git commit -m "CR7"
+git reflog
+git reset --soft 8764d6e
+git commit -m "NUEVOS CAMBIOS"
+git checkout master
+git add bdd.pptm && git commit -m "AÑADIDA PRESENTACIÓN"
+git add Readme.MD && git commit -m "MODIFICADO README.md"
+git reflog
+git reset --soft 2dac5db
+git commit -m "VIERNESITO"
+git merge reprobados
+git add 1.py && git commit -m "AÑADIDO 1"
+git add 2.py && git commit -m "AÑADIDO 2"
+git add comandos.txt && git commit -m "AÑADIDO comandos"
+
+
+
+
+
